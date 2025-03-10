@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Buddy</title>
+    <link rel="stylesheet" href="PRO.CSS">
+</head>
+<body>
+    <header>
+        <h1>Study Buddy</h1>
+        <p>Your Personal Task Organizer</p>
+    </header>
+    
+    <main>
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>📌 To-Do List – Add assignments, projects, and exams</li>
+                <li>⏰ Reminders – Get notifications before deadlines</li>
+                <li>🚀 Smart Prioritization – Suggests tasks based on urgency</li>
+                <li>🤝 Collaboration – Share tasks with friends</li>
+                <li>📝 Quick Notes – Save important points for revision</li>
+            </ul>
+        </section>
+        
+        <section class="task-section">
+            <h2>Add Your Task</h2>
+            <input type="text" id="taskInput" placeholder="Enter your task...">
+            <input type="datetime-local" id="reminderInput">
+            <button id="addTaskBtn">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
